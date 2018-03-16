@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/icStar"
+        android:title="Start"
+        android:icon="@drawable/start"
+        app:showAsAction="always"
+        ></item>
+    <item
+        android:id="@+id/itSetting"
+        android:title="@string/app_settings"
+        android:orderInCategory="100"
+        ></item>
+    <item
+        android:id="@+id/itEdit"
+        android:title="@string/app_edit"
+        android:orderInCategory="100"
+        ></item>
+    <item
+        android:id="@+id/itLogout"
+        android:title="@string/app_logout"
+        android:orderInCategory="100"
+        ></item>
+</menu>
